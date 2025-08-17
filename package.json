@@ -1,7 +1,7 @@
 {
   "name": "@t8/promisify-polling",
   "version": "0.1.0",
-  "description": "Convert polling to an easier-to-handle async function",
+  "description": "Convert a polling to an easier-to-handle async function",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
