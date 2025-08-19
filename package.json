@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/t8dev/promisify-polling.git"
+    "url": "git+https://github.com/t8dash/promisify-polling.git"
   },
   "keywords": [
     "polling",
