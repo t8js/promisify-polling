@@ -1,5 +1,5 @@
-import { SCHEDULE_TIMEOUT } from "./const";
-import type { ScheduleOptions, Timeout } from "./types";
+import { SCHEDULE_TIMEOUT } from "./const.ts";
+import type { ScheduleOptions, Timeout } from "./types.ts";
 
 export function schedule<Result, Params extends unknown[]>(
   callback: (...args: Params) => Promise<Result> | Result,

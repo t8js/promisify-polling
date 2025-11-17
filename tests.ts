@@ -1,6 +1,6 @@
-import { isScheduleTimeoutError } from "./src/isScheduleTimeoutError";
-import { schedule } from "./src/schedule";
-import { waitFor } from "./src/waitFor";
+import { isScheduleTimeoutError } from "./src/isScheduleTimeoutError.ts";
+import { schedule } from "./src/schedule.ts";
+import { waitFor } from "./src/waitFor.ts";
 
 const debug = process.argv.slice(2).includes("--debug");
 
