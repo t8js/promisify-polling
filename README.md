@@ -1,8 +1,8 @@
-[![npm](https://flat.badgen.net/npm/v/@t8/promisify-polling?labelColor=345&color=46e)](https://www.npmjs.com/package/@t8/promisify-polling) ![Lightweight](https://flat.badgen.net/bundlephobia/minzip/@t8/promisify-polling/?labelColor=345&color=46e) ![TypeScript ✓](https://flat.badgen.net/badge/TypeScript/✓?labelColor=345&color=345)
-
-# @t8/promisify-polling
+# T8 Promisify Polling
 
 *Convert a polling to an easier-to-handle async function*
+
+[![npm](https://img.shields.io/npm/v/@t8/promisify-polling?labelColor=345&color=46e)](https://www.npmjs.com/package/@t8/promisify-polling) ![Lightweight](https://img.shields.io/bundlephobia/minzip/@t8/promisify-polling?label=minzip&labelColor=345&color=46e)
 
 Interaction with a polling (i.e. a scheduled repeated action) looks similar to interaction with an asynchronous function: calling and waiting for its resolution before proceeding to other tasks. This package helps reduce the effort (and amount of code) required to set up a polling by creating an async function for a repeated action that is resolved when a defined condition is met.
 
